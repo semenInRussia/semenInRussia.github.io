@@ -21,7 +21,7 @@ body {
 
 .active-status {
 	background-color: #ffff99;
-	padding: 10px;
+	margin: 10px;
 	margin-bottom: 10px;
 	color: #000;
 	border-radius: 10px;
@@ -29,7 +29,7 @@ body {
 
 .achivmnent {
 	background-color: #9999ff;
-	padding: 15px;
+	margin: 15px;
 	margin-bottom: 10px;
 	color: #000;
 	border-radius: 10px;

@@ -10,6 +10,7 @@ body {
 
 .sub-title {
 	margin-bottom: 20px;
+	border-radius: 6px;
 }
 
 .main-title {
@@ -22,16 +23,20 @@ body {
 	background-color: #ffff99;
 	padding: 10px;
 	margin-bottom: 10px;
-	color: #001;
+	color: #000;
+	border-radius: 6px;
 }
 
 .achivmnent {
 	background-color: #9999ff;
 	padding: 15px;
 	margin-bottom: 10px;
+	color: #000;
 }
 
 .contacts {
 	background-color: #ff9999;
 	padding: 39px;
+	border-radius: 6px;
+	color: #000;
 }

@@ -1,0 +1,30 @@
+* {
+	text-align: center;
+	color: #fff;
+	font-family: inherit, Arial;
+}
+
+body {
+	background-color: #003399;
+}
+
+.main-title {
+	font-size: 24px;
+	font-family: Helvetica;
+}
+
+.active-status {
+	background-color: #ffff99;
+	padding: 10px;
+	color: #001;
+}
+
+.achivmnent {
+	background-color: #9999ff;
+	padding: 15px;
+}
+
+.contacts {
+	background-color: #ff9999;
+	padding: 39px;
+}

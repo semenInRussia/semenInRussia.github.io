@@ -61,3 +61,7 @@ body {
 	width: 34px;
 	color: #fff;
 }
+
+.card {
+	border: solid 2px #fff;
+}

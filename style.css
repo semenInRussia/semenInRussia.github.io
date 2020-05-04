@@ -64,4 +64,5 @@ body {
 
 .card {
 	border: solid 2px #fff;
+	width: auto;
 }

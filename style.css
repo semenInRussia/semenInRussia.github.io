@@ -1,68 +1,53 @@
 * {
-	text-align: center;
-	color: #fff;
+	margin: 50px;
+    color: #fff;
 }
 
 body {
-	background-color: #003399;
-	font-family: Arial;
+    background-color: #003399;
+	font-family: Arial, serif;
 }
 
 .sub-title {
-	margin-bottom: 20px;
-	border-radius: 10px;
-	padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .main-title {
-	font-size: 24px;
-	font-family: Helvetica;
-	margin-bottom: 10px;
-}
-
-.active-status {
-	background-color: #ffff99;
-	margin: 10px;
-	margin-bottom: 10px;
-	padding: 20px;
-	color: #000;
-	border-radius: 10px;
-}
-
-.achivmnent {
-	background-color: #9999ff;
-	margin: 15px;
-	padding: 20px;
-	margin-bottom: 10px;
-	color: #000;
-	border-radius: 10px;
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 10px;
 }
 
 .contacts {
-	background-color: #ff9999;
-	padding: 20px;
-	border-radius: 10px;
-	color: #000;
+    background-color: #ff9999;
+    color: #000;
 }
 
 .github {
-	color: #000;
+    color: #000;
 }
 
 .telegram {
-	color: #00f;
+    color: #00f;
 }
 
 .navbar-nav-svg {
-	width: 30px;
+    width: 30px;
 }
 
-.telegram-icon {
-	width: 34px;
-	color: #fff;
+.icon {
+    width: 34px;
+    color: #fff;
 }
 
 .card {
-	border: solid 2px #fff;
-	width: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+    border: solid 2px #fff;
+	color: black;
+    width: auto;
+	border-radius: 10px;
+	background-color: #ffff99;
 }

@@ -1,54 +1,45 @@
 * {
-	margin: 50px;
-    color: #fff;
+    margin: 10px;
+    font-size: 30px;
+    color: #ddd;
+
+    font-family: "Century Gothic", serif;
 }
 
 body {
-    background-color: #003399;
-	font-family: Arial, serif;
+    padding: 30px;
+    border: 2px solid #fff;
+    background-color: crimson;
 }
 
-.sub-title {
-    margin-bottom: 20px;
-    border-radius: 10px;
-    padding: 20px;
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
-.main-title {
-    font-size: 24px;
-    font-family: Helvetica, sans-serif;
-    margin-bottom: 10px;
+.menu {
+    place-self: start;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
 }
 
-.contacts {
-    background-color: #ff9999;
-    color: #000;
+.menu a:hover {
+    display: block;
+
+    border: 7px solid rgba(200, 0, 0, 0.5);
+    border-radius: 50px;
+    transform: scale(1.5);
 }
 
-.github {
-    color: #000;
+.name {
+    font-size: 60px;
+    place-self: end;
+    font-weight: bold;
 }
 
-.telegram {
-    color: #00f;
-}
-
-.navbar-nav-svg {
-    width: 30px;
-}
-
-.icon {
-    width: 34px;
-    color: #fff;
-    margin: 10px;
-}
-
-.card {
-	padding-bottom: 10px;
-	padding-top: 10px;
-    border: solid 2px #fff;
-	color: black;
-    width: auto;
-	border-radius: 10px;
-	background-color: #ffff99;
+.welcome {
+    alignment: left;
+    padding-left: 10px;
 }

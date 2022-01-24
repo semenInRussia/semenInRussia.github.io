@@ -1,9 +1,8 @@
-* {
+html {
     margin: 10px;
-    font-size: 30px;
+    font-size: 40px;
     color: #ddd;
-
-    font-family: "Century Gothic", serif;
+    font-family: "Georgia", serif;
 }
 
 body {
@@ -18,17 +17,15 @@ header {
 }
 
 .menu {
-    place-self: start;
-
     display: flex;
     align-content: center;
     align-items: center;
 }
 
 .menu a:hover {
+    transition: 1.3s;
     display: block;
-
-    border: 7px solid rgba(200, 0, 0, 0.5);
+    border: 7px solid rgba(200, 0, 0);
     border-radius: 50px;
     transform: scale(1.5);
 }
@@ -40,6 +37,27 @@ header {
 }
 
 .welcome {
-    alignment: left;
     padding-left: 10px;
+}
+
+.projects {
+    margin-left: 10px;
+    border: 2px solid #fff;
+    padding: 20px;
+    text-align: right;
+}
+
+.project {
+    font-size: 90px;
+    margin-left: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: #bbb;
+    transition: .3s;
+}
+
+.link:hover {
+    color: #999;
 }
